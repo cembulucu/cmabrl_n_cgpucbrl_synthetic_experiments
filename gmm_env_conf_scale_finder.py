@@ -13,7 +13,7 @@ if __name__ == '__main__':
 
     bandit_env = InfiniteArmedGMMEnvironmentWithIrrelevantDimensions(dx=dx, da=da)
     T, dx, da, dx_bar, da_bar = 100000, bandit_env.dx, bandit_env.da, bandit_env.dx_bar, bandit_env.da_bar
-    contexts = np.load('D:/python/projects/bandits/contextual_bandit_with_relevance_learning/data_files/uniform[0,1]_contexts_T100000_dx5.npy')
+    contexts = np.load('')
 
     confidence_scales = [0.001, 0.005, 0.01, 0.05, 0.1, 0.25, 0.5, 1]
     cs_size = len(confidence_scales)
