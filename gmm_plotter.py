@@ -5,7 +5,7 @@ from matplotlib.figure import Figure
 from matplotlib.ticker import ScalarFormatter
 
 if __name__ == '__main__':
-    load_str = 'E:/cem_files/New folder (2)/code_back2/bandits/contextual_bandit_with_relevance_learning/result_npzs/CBRL_vs_UCB1_vs_Xarmed_reps20_2019_04_08_12_06_04.npz'
+    load_str = ''
     npz_file = np.load(load_str)
 
     dx, da, dx_bar, da_bar, rew_hist_cbrl, rew_hist_ucb1, rew_hist_xarm, rew_hist_random,\
