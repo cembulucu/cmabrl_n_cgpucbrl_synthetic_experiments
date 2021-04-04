@@ -7,7 +7,7 @@ from matplotlib.ticker import ScalarFormatter
 import matplotlib.pylab as pyl
 
 if __name__ == '__main__':
-    load_root = 'E:/cem_files/New folder (2)/code_back2/bandits/contextual_bandit_with_relevance_learning/result_npzs/'
+    load_root = ''
     npz_file = np.load(load_root + 'sublinearity_CBRL_vs_UCB1_vs_Xarmed_reps20_2019_04_09_09_38_33.npz')
     regret_hist_cbrl, regret_hist_xarm, regret_hist_ucb1, regret_hist_random, Ts = npz_file['regret_hist_cbrl'], npz_file['regret_hist_xarm'], \
                                                                                    npz_file['regret_hist_ucb1'], npz_file['regret_hist_random'], \
