@@ -9,7 +9,7 @@ from contextual_bandit_with_relevance_learning.bandit_algorithms.contextual_x_ar
 from contextual_bandit_with_relevance_learning.environments.gmm_env import InfiniteArmedGMMEnvironmentWithIrrelevantDimensions
 
 if __name__ == '__main__':
-    contexts_path = 'D:/python/projects/bandits/contextual_bandit_with_relevance_learning/data_files/context_optarms_optexprews_reps20_horizon100000.npz'
+    contexts_path = ''
     contexts_npz_file = np.load(contexts_path)
     contexts_all, opt_arms_all, opt_exp_rews_all = contexts_npz_file['contexts'], contexts_npz_file['opt_arms'], contexts_npz_file['opt_exp_rews']
 
