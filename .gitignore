@@ -1,0 +1,6 @@
+# Environments
+venv_synth_experiments/
+
+# Pycharm stuff
+.idea/
+__pycache__/

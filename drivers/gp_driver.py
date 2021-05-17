@@ -1,6 +1,6 @@
 import time
 
-from gp_env import InfiniteArmedGPEnvironmentWithIrrelevantDimensions
+from synthetic_environments.gp_env import InfiniteArmedGPEnvironmentWithIrrelevantDimensions
 from helper_functions import calculate_beta_t, calculate_context_arm_grid, rbf_kernel_w_lin_coeffs, calculate_posterior_mean_var, \
     calculate_discrete_best_ard_method_unknown_rel_dims, calculate_highest_ucb_index
 import numpy as np
